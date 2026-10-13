@@ -1,0 +1,8 @@
+pandas
+requests
+beautifulsoup4
+lxml
+python-dateutil
+openpyxl
+# Optional: only needed for portals that must be rendered in a browser
+playwright

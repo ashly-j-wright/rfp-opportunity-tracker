@@ -1,0 +1,61 @@
+{
+  "keywords": [
+    "artificial intelligence",
+    "generative ai",
+    "machine learning",
+    "chatbot",
+    "automation",
+    "data analytics",
+    "business intelligence",
+    "process improvement",
+    "quality assurance",
+    "project management",
+    "workflow"
+  ],
+  "keyword_weights": {
+    "artificial intelligence": 4,
+    "generative ai": 4,
+    "machine learning": 3,
+    "chatbot": 3,
+    "automation": 2,
+    "data analytics": 2,
+    "business intelligence": 2,
+    "process improvement": 2,
+    "quality assurance": 2,
+    "project management": 1,
+    "workflow": 1
+  },
+  "negative_terms": [
+    "construction",
+    "janitorial",
+    "landscaping",
+    "roofing"
+  ],
+  "min_fit_score": 2,
+  "include_all_current_records": false,
+
+  "request_delay_seconds": 1.5,
+  "max_pages_per_source": 3,
+  "max_records_per_state": 40,
+  "browser_wait_seconds": 8,
+
+  "scbo_categories": {},
+
+  "enabled_connectors": [
+    { "name": "SC_SCBO", "enabled": false },
+    { "name": "TX_ESBD", "enabled": true },
+    { "name": "CO_VSS", "enabled": true },
+    { "name": "MD_eMMA", "enabled": true },
+    { "name": "OH_OhioBuys", "enabled": true },
+    { "name": "FL_VBS", "enabled": true },
+    { "name": "NJSTART", "enabled": true },
+    { "name": "PA_eMarketplace", "enabled": true }
+  ],
+
+  "enable_browser_probe_sources": false,
+  "browser_probe_wait_seconds": 6,
+  "browser_probe_sources": [],
+
+  "output_excel": "output/rfp_results.xlsx",
+  "output_csv": "output/rfp_results.csv"
+}

@@ -1,0 +1,16 @@
+# Your real settings and anything the tool collects stay local
+config.json
+output/
+*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
